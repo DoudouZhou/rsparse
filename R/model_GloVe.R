@@ -135,7 +135,7 @@ GloVe = R6::R6Class(
           cost = cost + cpp_glove_partial_fit(private$glove_fitter, x@j, x@i, x@x, iter_order, n_threads)
         }
         if (is.nan(cost)) stop("Cost becomes NaN, try to use smaller learning_rate.")
-        if (cost / n_nnz > 1) stop("Cost is too big, probably something goes wrong... try smaller learning rate")
+        if (cost / n_nnz > 1) print("Junwei, Cost is too big, probably something goes wrong... try smaller learning rate")
 
         # save cost history
         private$cost_history = c(private$cost_history, cost / n_nnz)
