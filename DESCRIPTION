@@ -1,7 +1,7 @@
 Package: rsparse
 Type: Package
 Title: Statistical Learning on Sparse Matrices
-Version: 0.5.0
+Version: 0.5.0-9000
 Authors@R: c(
     person("Dmitriy", "Selivanov", role=c("aut", "cre", "cph"), email="ds@rexy.ai", 
     comment = c(ORCID = "0000-0001-5413-1506")),
